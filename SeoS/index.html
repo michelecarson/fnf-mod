@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<!-- Head -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michele Carson</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<!-- Body -->
+
+<body>
+  <div class="container-fluid" id="wrapper">
+    <!--Bootstrap Wrapper-->
+
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid d-flex flex-row-reverse">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div>
+          <h1 id="name">Michele Carson</h1>
+          <h4 id="specialty">UX/UI Designer</h4>
+        </div>
+      </div>
+
+      <div class="collapse" id="navbarToggleExternalContent">
+        <h5><a href="#portfolio-slideshow">projects</h5></a>
+        <h5><a href="#about">about</h5></a>
+        <h5><a href="#footer">contact</h5></a>
+      </div>
+    </nav>
+
+    <section class="row">
+      <div class="col" id="portfolio-slideshow">
+        <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="70000">
+              <a href="https://www.behance.net/gallery/157647415/Uncle-Buddys-Phantom-Funhouse?" target="_blank"><img
+                  src="images/funhouse-cover.png" class="d-block w-100" alt="..."></a>
+              <h3 class="slideshow-text">Uncle Buddy's Phantom Funhouse</h3>
+              <p class="slideshow-text">Reconstruction of the 1993 hypermedia narrative game by John McDaid
+                for contemporary computing devices.</p>
+              <h6 class="slideshow-text">Releases 12/14/22</h6>
+
+            </div>
+            <div class="carousel-item" data-bs-interval="7000">
+              <img src="images/placeholder-image.jpg" class="d-block w-100" alt="...">
+              <h3 class="slideshow-text">Zombie Run</h3>
+              <p class="slideshow-text">Unity 2D side-scroller.</p>
+            </div>
+            <div class="carousel-item" data-bs-interval="7000">
+              <img src="images/placeholder-image.jpg" class="d-block w-100" alt="...">
+              <h3 class="slideshow-text">Super Snake</h3>
+              <p class="slideshow-text">HTML Canvas snake game.</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="col" id="greeting">
+        <h6>Hello!</h6>
+        <h6>I am Michele Carson.</h6>
+
+        <div id="introduction">
+          <p>
+            I am weeks away from graduating from Washington State University's Vancouver Campus in the<a
+              href="https://cas.vancouver.wsu.edu/creative-media-digital-culture"> Creative Media and Digital
+              Culture</a>
+            program. In this program, I am specializing in User Experience (UX) & User Interface
+            (UI) and I look forward to working with you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="col" id="about">
+        <h6>About</h6>
+        <p id="about-text">In my program, I am exposed to all components of web design and development including,
+          content creation with adobe products, user experience and design, and impact on culture.</p>
+      </div>
+    </section>
+
+    <footer class="row" id="footer">
+      <div class="col">
+      <p id="footer-text"><img src="images/linkedin.svg" id="linkedin"><br>Designed and coded by Michele Carson<br>2022 All Rights Reserved</p>
+      </div>
+    </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
