@@ -214,7 +214,7 @@ p {
 	flex: auto;
 }
 
-#portfolio-slideshow {
+#fnf-mod {
 	background-color: #f9f9f9;
 	margin-top: 10px;
 	padding-top: 50px;
@@ -299,9 +299,6 @@ a:active {
 		background-color: #191919;
 	}
 
-	.navbar-dark {
-		margin: 20px 240px 10px;
-	}
 
 	#portfolio-slideshow img {
 		height: 650px;
@@ -338,5 +335,10 @@ a:active {
 		text-align: center;
 	}
 
+    @media screen and (min-width: 1000px) {
+    
+    .navbar-dark {
+		margin: 20px 240px 10px;
+	}
 
 }
