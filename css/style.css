@@ -237,6 +237,7 @@ p {
 	flex: auto;
 }
 
+
 #portfolio-slideshow {
 	background-color: #f9f9f9;
 	padding-top: 30px;
@@ -347,6 +348,13 @@ a:active {
 
 	.navbar-dark {
 		margin: 20px 240px 10px;
+	}
+
+	#video {
+		#video {
+			margin: 10px 30px 30px;
+			
+		}
 	}
 
 	#name #specialty {
