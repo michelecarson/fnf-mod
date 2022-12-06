@@ -301,9 +301,6 @@ a:active {
 	text-align: center;
 }
 
-#preview-image {
-	margin-bottom: 30px;
-}
 
 #doc-file {
 	margin-top: 10px
@@ -350,8 +347,7 @@ a:active {
 		margin: 20px 240px 10px;
 	}
 
-	#video {
-		#video {
+	#video { 
 			margin: 10px 30px 30px;
 			
 		}
@@ -402,4 +398,3 @@ a:active {
 	}
 
 
-}
