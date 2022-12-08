@@ -306,7 +306,6 @@ a:active {
 	margin-top: 10px
 }
 
-
 #linkedin {
 	filter: invert(100%);
 	height: 18px;
@@ -348,10 +347,10 @@ a:active {
 	}
 
 	#video { 
-			margin: 10px 30px 30px;
+			padding: 10px 500px;
 			
 		}
-	}
+	
 
 	#name #specialty {
 		margin-left: 50px;
@@ -383,9 +382,6 @@ a:active {
 		margin-bottom: 30px;
 	}
 
-	/* .content-title {
-		padding-bottom: 0px;
-	} */
 
 	.content {
 		padding: 0 310px;
@@ -396,5 +392,5 @@ a:active {
 		text-align: center;
 		font-size: .7em;
 	}
-
+}
 
